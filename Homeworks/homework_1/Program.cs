@@ -4,7 +4,7 @@ a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3*/
 
 
-Console.WriteLine("Введите первое число ");
+/*Console.WriteLine("Введите первое число ");
 int num1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число ");
 int num2 = Convert.ToInt32(Console.ReadLine());
@@ -15,7 +15,7 @@ if (num1 < num2)
 else
 {
     Console.WriteLine($"{num1} > {num2}");
-}
+}*/
 
 
 /*Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
@@ -24,3 +24,19 @@ else
 22 3 9 -> 22*/
 
 
+Console.WriteLine("Введите первое число ");
+int num1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе число ");
+int num2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите третье число ");
+int num3 = Convert.ToInt32(Console.ReadLine());
+int max = num1;
+if (num2 > max)
+{
+    max = num2;
+}
+if (num3 > max)
+{
+    max = num3;
+}
+Console.WriteLine($"Maximum number of -> {max}");
