@@ -72,6 +72,6 @@ int count = 1;
 while (count <= numN)
 {
     if (count % 2 ==0)
-        Console.Write($"{numN} -> {count}, ");
+       Console.Write($"{count}, ");
     count += 1;
 }
