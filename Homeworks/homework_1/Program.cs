@@ -48,7 +48,7 @@ Console.WriteLine($"Maximum number of -> {max}");*/
 7 -> нет*/
 
 
-Console.WriteLine("Введите четное число ");
+/*Console.WriteLine("Введите четное число ");
 int numberA = Convert.ToInt32(Console.ReadLine());
 if(numberA % 2 == 1)
 {
@@ -57,4 +57,21 @@ if(numberA % 2 == 1)
 else
 {
     Console.WriteLine($"{numberA} -> ДА, является"); 
+}*/
+
+
+
+/*Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+5 -> 2, 4
+8 -> 2, 4, 6, 8*/
+
+
+Console.WriteLine("Введите число ");
+int numN = Convert.ToInt32(Console.ReadLine());
+int count = 1;
+while (count <= numN)
+{
+    if (count % 2 ==0)
+        Console.Write($"{numN} -> {count}, ");
+    count += 1;
 }
