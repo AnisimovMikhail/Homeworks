@@ -61,6 +61,16 @@ int numN = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine (numN % 10);*/
 
 
-Console.WriteLine("Input number N");
+/*Console.WriteLine("Input number N");
 int numN = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine (Math.Abs(numN) % 10);
+Console.WriteLine (Math.Abs(numN) % 10);*/
+
+Console.WriteLine("Введите число ");
+int numN = Convert.ToInt32(Console.ReadLine());
+int count = 1;
+while (count <= numN)
+{
+    if (count % 2 ==0)
+       Console.Write($"{count}, ");
+    count += 1;
+}
