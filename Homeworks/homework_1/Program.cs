@@ -73,5 +73,5 @@ while (count <= numN)
 {
     if (count % 2 ==0)
        Console.Write($"{count}, ");
-    count += 1;
+    count++;
 }
