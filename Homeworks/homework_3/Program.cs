@@ -22,7 +22,21 @@
 // 23432 -> да
 
 
-
+bool Polindrom (int num1, int num2, int num3, int num4, int num5) 
+{
+    if ( (num1 - num5) * (num1 - num5) == 0 &&  ( num2 - num4) * (num2 - num4) == 0 && (num3 - num3) == 0 )
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+Console.WriteLine("Введите пятизначное число");
+int Number = Convert.ToInt32(Console.ReadLine());
+bool newNumber = Polindrom(Number);
+Console.WriteLine($"{Number} -> ");
 
 
 
@@ -36,7 +50,7 @@
 // A (3,6,8); B (2,1,-7), -> 15.84
 // A (7,-5, 0); B (1,-1,9) -> 11.53
 
-void DistansPoint(double x1, double y1, double z1, double x2, double y2, double z2)
+/*void DistansPoint(double x1, double y1, double z1, double x2, double y2, double z2)
 {
     double distX = x2 - x1;
     double distY = y2 - y1;
@@ -57,5 +71,5 @@ Console.WriteLine("Задайте координату Y1 ");
 double y2 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Задайте координату Z1 ");
 double z2 = Convert.ToDouble(Console.ReadLine());
-DistansPoint(x1, y1, z1, x2, y2, z2);
+DistansPoint(x1, y1, z1, x2, y2, z2);*/
 
