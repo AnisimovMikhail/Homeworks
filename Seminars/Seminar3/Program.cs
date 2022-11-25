@@ -84,7 +84,7 @@ void NumberN(int A)
     Console.WriteLine($"Квадраты чисел от 1 до {A}: ");
     for (int i = 1; i < A + 1; i++)
     {
-        Console.Write($"{i} = {i*i} ");
+      Console.Write($"{i} = {i*i} ");
     }
 }
 Console.WriteLine("Введите число ");
