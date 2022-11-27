@@ -89,4 +89,4 @@ void NumberN(int A)
 }
 Console.WriteLine("Введите число ");
 int Number = Convert.ToInt32(Console.ReadLine());
- NumberN(Number);
+NumberN(Number);

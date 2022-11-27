@@ -22,25 +22,29 @@
 // 23432 -> да
 
 
-bool Polindrom (int num1, int num2, int num3, int num4, int num5) 
+
+
+void Palindrom(int number)
 {
-    if ( (num1 - num5) * (num1 - num5) == 0 &&  ( num2 - num4) * (num2 - num4) == 0 && (num3 - num3) == 0 )
+    if(number >= 10000)
     {
-        return true;
+    int delenie1 = number / 10000;
+    int remainder1 = number % 10;
+    if(delenie1 == remainder1)
+    {
+        number = number / 10;
+        int delenie2 = number / 100 % 10;
+        int remainder2 = number % 10;
+        if(delenie2 == remainder2)
+        Console.WriteLine("ДА");
     }
-    else
-    {
-        return false;
+    else 
+    Console.WriteLine(" НЕТ");      
     }
 }
-Console.WriteLine("Введите пятизначное число");
-int Number = Convert.ToInt32(Console.ReadLine());
-bool newNumber = Polindrom(Number);
-Console.WriteLine($"{Number} -> ");
-
-
-
-
+Console.Write("Введите пятизначное число:");
+int number = Convert.ToInt32(Console.ReadLine());
+Palindrom(number);
 
 
 
