@@ -1,0 +1,15 @@
+C:\Users\Михаил\Desktop\MySeminarsC#\Homeworks\homework_9\bin\Debug\net7.0\homework_9.exe
+C:\Users\Михаил\Desktop\MySeminarsC#\Homeworks\homework_9\bin\Debug\net7.0\homework_9.deps.json
+C:\Users\Михаил\Desktop\MySeminarsC#\Homeworks\homework_9\bin\Debug\net7.0\homework_9.runtimeconfig.json
+C:\Users\Михаил\Desktop\MySeminarsC#\Homeworks\homework_9\bin\Debug\net7.0\homework_9.dll
+C:\Users\Михаил\Desktop\MySeminarsC#\Homeworks\homework_9\bin\Debug\net7.0\homework_9.pdb
+C:\Users\Михаил\Desktop\MySeminarsC#\Homeworks\homework_9\obj\Debug\net7.0\homework_9.csproj.AssemblyReference.cache
+C:\Users\Михаил\Desktop\MySeminarsC#\Homeworks\homework_9\obj\Debug\net7.0\homework_9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Михаил\Desktop\MySeminarsC#\Homeworks\homework_9\obj\Debug\net7.0\homework_9.AssemblyInfoInputs.cache
+C:\Users\Михаил\Desktop\MySeminarsC#\Homeworks\homework_9\obj\Debug\net7.0\homework_9.AssemblyInfo.cs
+C:\Users\Михаил\Desktop\MySeminarsC#\Homeworks\homework_9\obj\Debug\net7.0\homework_9.csproj.CoreCompileInputs.cache
+C:\Users\Михаил\Desktop\MySeminarsC#\Homeworks\homework_9\obj\Debug\net7.0\homework_9.dll
+C:\Users\Михаил\Desktop\MySeminarsC#\Homeworks\homework_9\obj\Debug\net7.0\refint\homework_9.dll
+C:\Users\Михаил\Desktop\MySeminarsC#\Homeworks\homework_9\obj\Debug\net7.0\homework_9.pdb
+C:\Users\Михаил\Desktop\MySeminarsC#\Homeworks\homework_9\obj\Debug\net7.0\homework_9.genruntimeconfig.cache
+C:\Users\Михаил\Desktop\MySeminarsC#\Homeworks\homework_9\obj\Debug\net7.0\ref\homework_9.dll
